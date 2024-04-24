@@ -14,6 +14,8 @@
 		FD2FBB122B8E4E36007ACAB8 /* FizzBuzzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2FBB112B8E4E36007ACAB8 /* FizzBuzzTests.swift */; };
 		FD2FBB1C2B8E4E36007ACAB8 /* FizzBuzzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2FBB1B2B8E4E36007ACAB8 /* FizzBuzzUITests.swift */; };
 		FD2FBB1E2B8E4E36007ACAB8 /* FizzBuzzUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2FBB1D2B8E4E36007ACAB8 /* FizzBuzzUITestsLaunchTests.swift */; };
+		FD4218112BA4A66200A62D17 /* highScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4218102BA4A66200A62D17 /* highScoreView.swift */; };
+		FD9ED85E2BA9E6A1004FAF93 /* PlayerScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9ED85D2BA9E6A1004FAF93 /* PlayerScore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		FD2FBB172B8E4E36007ACAB8 /* FizzBuzzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizzBuzzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD2FBB1B2B8E4E36007ACAB8 /* FizzBuzzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzUITests.swift; sourceTree = "<group>"; };
 		FD2FBB1D2B8E4E36007ACAB8 /* FizzBuzzUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FD4218102BA4A66200A62D17 /* highScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = highScoreView.swift; sourceTree = "<group>"; };
+		FD9ED85D2BA9E6A1004FAF93 /* PlayerScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerScore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				FD2FBB002B8E4E34007ACAB8 /* FizzBuzzApp.swift */,
 				FD2FBB022B8E4E34007ACAB8 /* ContentView.swift */,
+				FD4218102BA4A66200A62D17 /* highScoreView.swift */,
+				FD9ED85D2BA9E6A1004FAF93 /* PlayerScore.swift */,
 				FD2FBB042B8E4E36007ACAB8 /* Assets.xcassets */,
 				FD2FBB062B8E4E36007ACAB8 /* Preview Content */,
 			);
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD2FBB032B8E4E34007ACAB8 /* ContentView.swift in Sources */,
+				FD9ED85E2BA9E6A1004FAF93 /* PlayerScore.swift in Sources */,
 				FD2FBB012B8E4E34007ACAB8 /* FizzBuzzApp.swift in Sources */,
+				FD4218112BA4A66200A62D17 /* highScoreView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
